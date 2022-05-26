@@ -5,27 +5,29 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-    TextView login,Reg;
+public class CarDetails extends AppCompatActivity {
+    TextView submit;
+    ImageView back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        login=findViewById(R.id.login);
-        login.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_car_details);
+        submit=findViewById(R.id.subm);
+        submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),Login.class));
+                startActivity(new Intent(getApplicationContext(),HomePage.class));
             }
         });
-        Reg=findViewById(R.id.Register);
-        Reg.setOnClickListener(new View.OnClickListener() {
+        back=findViewById(R.id.bacc);
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),Register.class));
+                finish();
             }
         });
     }
