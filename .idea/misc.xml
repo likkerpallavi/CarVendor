@@ -9,6 +9,7 @@
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_history.xml" value="0.2385" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_home.xml" value="0.2385" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_mainpage.xml" value="0.2385" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_personal_details.xml" value="0.2385" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_setting_lines.xml" value="0.2385" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_settings.xml" value="0.2385" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/drawable/ic_settings__1_.xml" value="0.2385" />
@@ -22,10 +23,12 @@
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/activity_primarydetails.xml" value="0.2" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/activity_register.xml" value="0.4" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/fragment_history.xml" value="0.21403508771929824" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/fragment_home.xml" value="0.21403508771929824" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/fragment_maps.xml" value="0.20219298245614034" />
-        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/fragment_profile.xml" value="0.21403508771929824" />
-        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/list.xml" value="0.2131578947368421" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/layout/list.xml" value="0.2" />
         <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/menu/bottommenu.xml" value="0.2131578947368421" />
+        <entry key="..\:/Users/krish/AndroidStudioProjects/Car/app/src/main/res/menu/tab.xml" value="0.18984375" />
       </map>
     </option>
   </component>

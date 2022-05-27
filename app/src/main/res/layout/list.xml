@@ -3,27 +3,81 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="#E8DADA"
     android:layout_height="match_parent">
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="240dp"
-        android:padding="10dp"
+        android:layout_height="180dp"
+        android:padding="20dp"
+
         >
-      <TextView
-          android:layout_width="match_parent"
-          android:layout_height="60dp"
-          android:layout_margin="10dp"
-          android:text="Order id and username"
-          android:padding="15dp"
-          android:textAlignment="center"
-          android:textColor="@color/black"
-          />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:maxLines="1"
+                android:marqueeRepeatLimit="10"
+                android:padding="10dp"
+                android:text="Order id and username"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="60dp"
             android:orientation="horizontal"
-            />
+            >
+            <TextView
+                android:layout_width="185dp"
+                android:text="PickUp Location"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:maxLines="1"
+                android:textSize="20dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="185dp"
+                    android:layout_height="match_parent"
+                    android:text="Drop Location"
+                    android:textAlignment="center"
+                    android:padding="10dp"
+                    android:maxLines="1"
+                    android:textSize="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="185dp"
+                android:text="Accept"
+                android:background="@drawable/button"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="23dp"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/button"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:textSize="23dp"
+                android:maxLines="1"
+                android:text="Decline"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
 

@@ -19,7 +19,7 @@ public class HomePage extends AppCompatActivity {
         bnv.setOnNavigationItemSelectedListener(this::onNavigationItemSelected);
         bnv.setSelectedItemId(R.id.home);
     }
-
+    Home firstFragment= new Home();
     history secondFragment = new history();
     profile thirdFragment = new profile();
 
@@ -28,7 +28,7 @@ public class HomePage extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.home:
-               // getSupportFragmentManager().beginTransaction().replace(R.id.container, firstFragment).commit();
+               getSupportFragmentManager().beginTransaction().replace(R.id.container, firstFragment).commit();
                 return true;
 
             case R.id.history:
