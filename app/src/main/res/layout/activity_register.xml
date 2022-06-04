@@ -46,6 +46,7 @@
         android:textColor="@color/black" />
 
     <EditText
+        android:id="@+id/namer"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:textColor="@color/black"
@@ -60,6 +61,7 @@
         android:textColor="@color/black" />
 
     <EditText
+        android:id="@+id/emailt"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:textColor="@color/black"
@@ -74,6 +76,7 @@
         android:textColor="@color/black" />
 
     <EditText
+        android:id="@+id/passt"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:textColor="@color/black"
