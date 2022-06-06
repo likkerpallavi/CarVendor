@@ -31,13 +31,22 @@
                 android:src="@drawable/ic_settings" />
         </RelativeLayout>
     </LinearLayout>
-
-    <FrameLayout
-        android:id="@+id/container"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+          <androidx.recyclerview.widget.RecyclerView
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="#609DA6"
+              android:dividerHeight="1dp"
+              />
+        </RelativeLayout>
+    </ScrollView>
 
-    </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"

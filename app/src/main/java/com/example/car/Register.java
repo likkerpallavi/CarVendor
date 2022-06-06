@@ -117,9 +117,12 @@ public class Register extends AppCompatActivity {
                                 // if the user created intent to login activity
                                 Intent intent
                                         = new Intent(getApplicationContext(),Primarydetails.class);
+                                //intent.putExtra("messageKey",name.getText().toString());
                                 startActivity(intent);
                             }
-                            else {
+                            if(task.isCanceled())
+                            {
+
 
                                 // Registration failed
                                 Toast.makeText(

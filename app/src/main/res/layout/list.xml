@@ -19,8 +19,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:maxLines="1"
+
                 android:marqueeRepeatLimit="10"
-                android:padding="10dp"
+                android:padding="15dp"
                 android:text="Order id and username"
                 android:textAlignment="center"
                 android:textColor="@color/black" />

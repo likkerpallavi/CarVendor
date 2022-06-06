@@ -52,7 +52,8 @@ public class HomePage extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "welcome home", Toast.LENGTH_SHORT).show();
         }
     }
-    Home firstFragment= new Home();
+
+   // Home firstFragment= new Home();
     historya secondFragment = new historya();
 
 
