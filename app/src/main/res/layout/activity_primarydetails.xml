@@ -99,27 +99,30 @@
                     android:text="Female"
                     />
             </RadioGroup>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:padding="10dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                >
+                android:padding="10dp">
+
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_baseline_camera_24"/>
+                    android:src="@drawable/ic_baseline_camera_24" />
+
                 <TextView
 
                     android:layout_width="wrap_content"
                     android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:text="Upload Aadhar card"
-                    android:layout_marginLeft="30dp"
                     android:textColor="@color/black" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
